@@ -1,0 +1,28 @@
+#register {
+    text-align: center;
+    background-color: rgb(0, 110, 255);
+    border-radius: 120px;
+    width: 120px;
+}
+
+#register a {
+    color: white;
+}
+
+
+.collapse ul li {
+    padding: 5px;
+    margin: 5px;
+}
+
+#about {
+    padding: 80px;
+}
+
+#about h3 {
+    color: rgb(0, 110, 255);
+}
+
+#about p {
+    color: rgba(0, 0, 0, 0.397);
+}

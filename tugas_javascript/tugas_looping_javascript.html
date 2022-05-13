@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping Javascript</title>
+</head>
+
+<body>
+    <script>
+        // perulangan for
+        for (counter = 1; counter <= 10; counter++) {
+            document.write("NO " + counter + "<br>");
+        }
+
+
+        // perulangan while 
+        var ulangi = confirm("ulang");
+        var counter = 0;
+
+        while (ulangi) {
+            counter++;
+            ulangi = confirm("ulangi lagi?");
+        }
+
+        document.write("anda sudah mengulangi sebanyak " + counter + " kali <br> ");
+
+
+        // perulangan do while 
+        var ulangi = confirm("ulang?");;
+        var counter = 0;
+
+        do {
+            counter++;
+            ulangi = confirm("ulangi lagi?");
+        } while (ulangi)
+
+        document.write("anda sudah mengulangi sebanyak " + counter + " kali");
+
+
+
+        // perulangan foreach 
+
+        var buku = ["startup learning", "membuat website dengan php", "framework codeigniter 4"];
+
+        buku.forEach((b) => {
+            document.write("<p> judul buku " + b + "</p>");
+        });
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

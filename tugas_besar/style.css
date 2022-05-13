@@ -1,0 +1,23 @@
+body {
+    background-color: #464646;
+}
+
+.container {
+    background-color: #c4c4bc;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card {
+    margin-top: 25px;
+}
+
+.footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 25px;
+    height: 50px;
+}
